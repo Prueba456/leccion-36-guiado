@@ -1,0 +1,63 @@
+#map {
+ height:90vh;
+ width: 100%;
+ background-color: gray;
+}
+.botones{
+  width: 100%;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+.posicion{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+}
+.colorL{
+  background-color: #f7b617;
+  color: white;
+  padding: 10px;
+}
+.linea{
+  border-left: 2px solid white;
+}
+.form-control{
+  colorL:white;
+  column-rule-color: white;
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.form-control:focus{
+  border: 1px solid white;
+  box-shadow: none;
+}
+.glyphicon{
+  align-self: flex-end;
+}
+.alinear{
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  [class*="col-"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
